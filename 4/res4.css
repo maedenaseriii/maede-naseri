@@ -1,0 +1,190 @@
+@media (max-width: 1494px) {
+    .five-p {
+        width: 30rem;
+        font-size: 0.8rem;
+    }
+}
+
+@media (max-width: 1080px) {
+    .web {
+        width: 24rem;
+        font-size: 0.8rem;
+    }
+
+    h2 {
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 1020px) {
+    h1 {
+        font-size: 1.2rem;
+    }
+
+    .acme, .read-more {
+        font-size: 0.9rem;
+    }
+
+    h4, h2 {
+        font-size: 1rem;
+    }
+
+    .third-div .p3{
+        font-size: 0.9rem;
+    }
+    .five-p {
+        width: 20rem;
+        font-size: 0.6rem;
+    }
+
+    .third-four .p4{
+        font-size: 0.9rem;
+    }
+
+    .sixth-div {
+        font-size: 0.8rem;
+    }
+}
+
+@media (max-width: 824px) {
+    .web {
+        width: 20rem;
+        font-size: 0.7rem;
+    }
+
+    h2 {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 678px) {
+    .acme {
+        width: 30rem;
+    }
+
+    .web {
+        width: 16rem;
+    }
+
+    .p-fourth {
+        width: 30rem;
+    }
+
+    .five-p {
+        width: 15rem;
+    }
+}
+
+
+@media (max-width: 546px) {
+    h1 {
+        font-size: 1rem;
+    }
+
+    .acme, .read-more ,.third-div div p,.fourth-div div p {
+        font-size: 0.8rem;
+    }
+
+    h4, h2 {
+        font-size: 0.9rem;
+    }
+
+    .five-p {
+        width: 12rem;
+        font-size: 0.5rem;
+    }
+
+    .sixth-div {
+        font-size: 0.7rem;
+    }
+
+    .web {
+        width: 13rem;
+        font-size: 0.6rem;
+    }
+
+    .third-div {
+        gap: 0.6rem;
+        font-size: 0.7rem;
+    }
+
+    .p-fourth {
+        width: 20rem;
+    }
+    .a-left{
+        font-size: 0.6rem;
+    }
+}
+
+@media (max-width: 454px) {
+    h1 {
+        font-size: 0.8rem;
+    }
+
+    .acme, .read-more,.third-div div p,.fourth-div div p {
+        font-size: 0.6rem;
+    }
+    .third-div div p{
+        width: 6rem;
+    }
+    h2 {
+        font-size: 0.7rem;
+    }
+    h4{
+        font-size: 0.6rem;
+    }
+
+    .five-p {
+        width: 9rem;
+        font-size: 0.4rem;
+        margin-left: 1rem;
+    }
+    .right-p{
+        margin-right: 0.9rem;
+    }
+    .a-left{
+        margin-left: 0.8rem;
+    }
+
+
+    .sixth-div {
+        font-size: 0.6rem;
+    }
+
+    .web {
+        width: 11rem;
+        font-size: 0.5rem;
+    }
+
+    .third-div {
+        gap: 0.4rem;
+        justify-content: space-around;
+    }
+
+    .p-fourth {
+        width: 18rem;
+    }
+
+    .acme {
+        width: 20rem;
+    }
+
+}
+@media (max-width: 388px) {
+    .acme{
+        width: 16rem;
+    }
+    .web {
+        width: 9rem;
+    }
+    .third-div div {
+        width: 5.5rem;
+    }
+    .five-p {
+        width: 7rem;
+    }
+    .third-div {
+        gap: 0.3rem;
+    }
+
+}

@@ -1,0 +1,38 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden
+}
+.container{
+    width: 60rem;
+    height:auto;
+    background-color: #e3e3e3;
+    margin:8rem auto;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    row-gap: 0.7rem;
+    justify-items: center;
+
+}
+img{
+    object-fit: cover;
+    width: 14rem;
+    display: flex;
+    flex-direction: column;
+
+
+}
+.img1,.img3,.img6,.img8{
+    height: 8rem;
+}
+.img2,.img4,.img5,.img7{
+    height: 22rem;
+}
+.img5,.img7{
+    margin-top: -14rem;
+}

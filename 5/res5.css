@@ -1,0 +1,45 @@
+@media (max-width: 970px) {
+    .container{
+        width: 44rem;
+        margin:8rem auto;
+    }
+    img{
+        width:10rem;
+    }
+}
+@media (max-width: 714px) {
+    .container{
+        width: 33rem;
+        margin:11rem auto;
+    }
+    img{
+        width:6rem;
+    }
+    .img1,.img3,.img6,.img8{
+        height: 4rem;
+    }
+    .img2,.img4,.img5,.img7{
+        height: 12rem;
+    }
+    .img5,.img7{
+        margin-top: -8rem;
+    }
+
+}
+@media (max-width: 530px) {
+    .container {
+        width: 15rem;
+        grid-template-columns: repeat(2, 1fr);
+        margin: 12rem auto;
+    }
+    .img5,.img7{
+        margin-top: 0.06rem;
+    }
+    .img6,.img8{
+        margin-top: 0.06rem;
+    }
+    .img1,.img2,.img3,.img4,.img5,.img6,.img7,.img8{
+        height: 5rem;
+    }
+
+}

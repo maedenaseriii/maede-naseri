@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bgGray {
+    background-color: #292929;
+    width: inherit;
+    height: 10rem;
+    color: #bebebe;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.bgWhite {
+    width: 100%;
+    height: 7.5rem;
+    background-color: #d2d2d2;
+}
+
+.first-div {
+    height: 12rem;
+}
+
+.acme {
+    width: 40rem;
+    text-align: center;
+}
+
+.read-more {
+    border: 1px solid #888888;
+    padding: 0.6rem 2rem;
+}
+
+.second-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.web {
+    width: 30rem;
+}
+
+.third-div {
+    flex-direction: row;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.third-div div {
+    color: #292929;
+    width: 10rem;
+    height: 8.5rem;
+    background-color: #bebebe;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.third-div div p {
+    font-size: 0.9rem;
+    text-align: center;
+}
+
+.fourth-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.p-fourth {
+    width: 40rem;
+    text-align: center;
+}
+
+.fifth-div {
+    flex-direction: row;
+}
+
+.fifth-div .left, .fifth-div .right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: inherit;
+    padding: 1rem;
+}
+
+.fifth-div .left {
+    background-color: #008cae;
+    width: 80rem;
+}
+
+.fifth-div .right {
+    text-align: center;
+    width: 80rem;
+}
+
+.a-left {
+    color: #bebebe;
+    text-decoration: none;
+}
+
+.a-left:hover {
+    color: crimson;
+}
+
+.sixth-div {
+    width: 100%;
+    color: #bebebe;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 2.5rem;
+}
+
+.a-six {
+    color: #008cae;
+    text-decoration: none;
+}
